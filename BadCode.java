@@ -1,7 +1,7 @@
 public class BadCode {
 
   // Print the average and the sum of an array of integers
-  private int PRINTsumandAVERAGE(int x[]) {
+  private int printSumAndAverage(int x[]) {
     int sum;
     int average;
 
@@ -22,6 +22,6 @@ public class BadCode {
     int array[] = {1, 2, 3};
 
     BadCode bc = new BadCode();
-    bc.PRINTsumandAVERAGE(array);
+    bc.printSumAndAverage(array);
   }
 }
